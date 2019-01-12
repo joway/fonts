@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Acme';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Acme Regular'), local('Acme-Regular'), url(https://fonts.joway.io/s/acme/v7/RrQfboBx-C5_XxrBaw.ttf) format('truetype');
+}
