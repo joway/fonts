@@ -1,6 +1,8 @@
+/* khmer */
 @font-face {
   font-family: 'Hanuman';
   font-style: normal;
   font-weight: 400;
-  src: local('Hanuman Regular'), local('Hanuman-Regular'), url(https://fonts.joway.io/s/hanuman/v11/VuJxdNvD15HhpJJBeKY.ttf) format('truetype');
+  src: local('Hanuman Regular'), local('Hanuman-Regular'), url(https://fonts.joway.io/s/hanuman/v11/VuJxdNvD15HhpJJBSKrdOaNkaRtlvg.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+200C, U+25CC;
 }

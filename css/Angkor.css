@@ -1,6 +1,8 @@
+/* khmer */
 @font-face {
   font-family: 'Angkor';
   font-style: normal;
   font-weight: 400;
-  src: local('Angkor Regular'), local('Angkor-Regular'), url(https://fonts.joway.io/s/angkor/v11/H4cmBXyAlsPdnlb-8g.ttf) format('truetype');
+  src: local('Angkor Regular'), local('Angkor-Regular'), url(https://fonts.joway.io/s/angkor/v11/H4cmBXyAlsPdnlbO_iY_wrmwgp63.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+200C, U+25CC;
 }

@@ -1,6 +1,8 @@
+/* greek */
 @font-face {
   font-family: 'GFS Neohellenic';
   font-style: normal;
   font-weight: 400;
-  src: local('GFS Neohellenic Regular'), local('GFSNeohellenic-Regular'), url(https://fonts.joway.io/s/gfsneohellenic/v11/8QIRdiDOrfiq0b7R8O1Iw9WLcY5TLQ.ttf) format('truetype');
+  src: local('GFS Neohellenic Regular'), local('GFSNeohellenic-Regular'), url(https://fonts.joway.io/s/gfsneohellenic/v11/8QIRdiDOrfiq0b7R8O1Iw9WLcY5jKaJOwaYTUv1X.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
 }

@@ -1,6 +1,8 @@
+/* khmer */
 @font-face {
   font-family: 'Bayon';
   font-style: normal;
   font-weight: 400;
-  src: local('Bayon Regular'), local('Bayon-Regular'), url(https://fonts.joway.io/s/bayon/v12/9XUrlJNmn0LPFl-p.ttf) format('truetype');
+  src: local('Bayon Regular'), local('Bayon-Regular'), url(https://fonts.joway.io/s/bayon/v12/9XUrlJNmn0LPFm-lMBcmdHNI_LA.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+200C, U+25CC;
 }

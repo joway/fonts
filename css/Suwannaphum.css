@@ -1,6 +1,8 @@
+/* khmer */
 @font-face {
   font-family: 'Suwannaphum';
   font-style: normal;
   font-weight: 400;
-  src: local('Suwannaphum Regular'), local('Suwannaphum-Regular'), url(https://fonts.joway.io/s/suwannaphum/v12/jAnCgHV7GtDvc8jbe8hXXIWl.ttf) format('truetype');
+  src: local('Suwannaphum Regular'), local('Suwannaphum-Regular'), url(https://fonts.joway.io/s/suwannaphum/v12/jAnCgHV7GtDvc8jbe8hXXLWp9cGWWR2URmk.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+200C, U+25CC;
 }

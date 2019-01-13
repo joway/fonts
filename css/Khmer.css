@@ -1,6 +1,8 @@
+/* khmer */
 @font-face {
   font-family: 'Khmer';
   font-style: normal;
   font-weight: 400;
-  src: local('Khmer'), url(https://fonts.joway.io/s/khmer/v11/MjQImit_vPPwpF-B.ttf) format('truetype');
+  src: local('Khmer'), url(https://fonts.joway.io/s/khmer/v11/MjQImit_vPPwpG-NrtymepmCgL4.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+200C, U+25CC;
 }

@@ -1,6 +1,8 @@
+/* khmer */
 @font-face {
   font-family: 'Kdam Thmor';
   font-style: normal;
   font-weight: 400;
-  src: local('Kdam Thmor'), local('KdamThmor'), url(https://fonts.joway.io/s/kdamthmor/v6/MwQzbhjs3veF6QwJVf0JkGM.ttf) format('truetype');
+  src: local('Kdam Thmor'), local('KdamThmor'), url(https://fonts.joway.io/s/kdamthmor/v6/MwQzbhjs3veF6QwJVf0JoG8fiJtMpXqFTQ.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+200C, U+25CC;
 }

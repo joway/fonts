@@ -1,6 +1,8 @@
+/* khmer */
 @font-face {
   font-family: 'Siemreap';
   font-style: normal;
   font-weight: 400;
-  src: local('Siemreap'), url(https://fonts.joway.io/s/siemreap/v11/Gg82N5oFbgLvHAfNl2Yb.ttf) format('truetype');
+  src: local('Siemreap'), url(https://fonts.joway.io/s/siemreap/v11/Gg82N5oFbgLvHAfNl1YXlg4hLmpfxFg.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+200C, U+25CC;
 }

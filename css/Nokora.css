@@ -1,6 +1,8 @@
+/* khmer */
 @font-face {
   font-family: 'Nokora';
   font-style: normal;
   font-weight: 400;
-  src: local('Nokora Regular'), local('Nokora-Regular'), url(https://fonts.joway.io/s/nokora/v12/hYkIPuwgTubzaWxQOw.ttf) format('truetype');
+  src: local('Nokora Regular'), local('Nokora-Regular'), url(https://fonts.joway.io/s/nokora/v12/hYkIPuwgTubzaWxgNzAOgPVw8CZN.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+200C, U+25CC;
 }

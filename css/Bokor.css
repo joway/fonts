@@ -1,6 +1,8 @@
+/* khmer */
 @font-face {
   font-family: 'Bokor';
   font-style: normal;
   font-weight: 400;
-  src: local('Bokor Regular'), local('Bokor-Regular'), url(https://fonts.joway.io/s/bokor/v11/m8JcjfpeeaqTiR2W.ttf) format('truetype');
+  src: local('Bokor Regular'), local('Bokor-Regular'), url(https://fonts.joway.io/s/bokor/v11/m8JcjfpeeaqTiS2afoj5crxFVmo.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+200C, U+25CC;
 }

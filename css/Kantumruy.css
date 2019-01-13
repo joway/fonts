@@ -1,6 +1,8 @@
+/* khmer */
 @font-face {
   font-family: 'Kantumruy';
   font-style: normal;
   font-weight: 400;
-  src: local('Kantumruy'), url(https://fonts.joway.io/s/kantumruy/v5/sykx-yJ0m7wyVb-f4FO3_g.ttf) format('truetype');
+  src: local('Kantumruy'), url(https://fonts.joway.io/s/kantumruy/v5/sykx-yJ0m7wyVb-f4FOH8vLAjFeYL2jj.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+200C, U+25CC;
 }

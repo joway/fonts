@@ -1,6 +1,8 @@
+/* khmer */
 @font-face {
   font-family: 'Moulpali';
   font-style: normal;
   font-weight: 400;
-  src: local('Moul Pali'), local('MoulPali'), url(https://fonts.joway.io/s/moulpali/v11/H4ckBXKMl9HagUWymyY6.ttf) format('truetype');
+  src: local('Moul Pali'), local('MoulPali'), url(https://fonts.joway.io/s/moulpali/v11/H4ckBXKMl9HagUWymxY2yL6SgK62UzE.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+200C, U+25CC;
 }

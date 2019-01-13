@@ -1,6 +1,8 @@
+/* khmer */
 @font-face {
   font-family: 'Battambang';
   font-style: normal;
   font-weight: 400;
-  src: local('Battambang Regular'), local('Battambang-Regular'), url(https://fonts.joway.io/s/battambang/v12/uk-mEGe7raEw-HjkzZabDnU.ttf) format('truetype');
+  src: local('Battambang Regular'), local('Battambang-Regular'), url(https://fonts.joway.io/s/battambang/v12/uk-mEGe7raEw-HjkzZabPnmp4g5y_o5z7Q.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+200C, U+25CC;
 }

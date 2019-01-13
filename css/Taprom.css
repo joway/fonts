@@ -1,6 +1,8 @@
+/* khmer */
 @font-face {
   font-family: 'Taprom';
   font-style: normal;
   font-weight: 400;
-  src: local('Taprom'), url(https://fonts.joway.io/s/taprom/v10/UcCn3F82JHycULbFQw.ttf) format('truetype');
+  src: local('Taprom'), url(https://fonts.joway.io/s/taprom/v10/UcCn3F82JHycULb1TyM22Uo_H6Z1.woff2) format('woff2');
+  unicode-range: U+1780-17FF, U+200C, U+25CC;
 }
