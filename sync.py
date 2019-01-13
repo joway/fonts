@@ -42,6 +42,7 @@ def write_file(fn, data):
 def main():
   fonts_content = read_file('./fonts.json')
   fonts = json.loads(fonts_content)
+  css_contents = []
 
   for item in fonts:
     try:
@@ -53,6 +54,7 @@ def main():
       css_content = fetch_data(
         'https://fonts.googleapis.com/css?family={0}'.format(font),
       )
+      css_contents.append(css_content)
       font_urls = get_font_urls(css_content)
       for url in font_urls:
         print('downloading font: {0}'.format(url))
@@ -71,5 +73,7 @@ def main():
 
     except Exception as e:
       print(e)
+
+  write_file('./css/index.css', '\n'.join(css_contents))
 
 main()

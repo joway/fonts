@@ -14,21 +14,91 @@
     <meta name="author" content="Joway Wang" />
     <title>Google Fonts Mirror</title>
 
-    <link href="/css/Noto+Sans+TC.css" rel="stylesheet" />
-
+    <link href="/css/index.css" rel="stylesheet" />
     <style>
+      html {
+        margin: 0;
+        padding: 0;
+      }
       body {
         margin: 0;
       }
-      .noto-sans-tc {
-        font-family: "Noto Sans TC", sans-serif;
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+      .main {
+      }
+      .main h1 {
+        font-size: 36px;
+      }
+      .main h2 {
+        font-size: 28px;
+      }
+      .title {
+        margin-top: 32px;
+        margin-bottom: 50px;
+      }
+      .usage {
+      }
+      .usage a {
+        text-decoration: underline;
       }
     </style>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flexboxgrid@6.3.1/dist/flexboxgrid.min.css"
+    />
+    <script src="https://unpkg.com/vue@2.5.22/dist/vue.min.js"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-53624533-8"
+    ></script>
+    <script src="https://joway.io/analytics.js"></script>
   </head>
   <body>
-    <div class="main">
-      <h1 class="default">Google Fonts Mirror | 谷歌字体镜像</h1>
-      <h1 class="noto-sans-tc">Google Fonts Mirror | 谷歌字体镜像</h1>
+    <div id="app" class="main row center-xs">
+      <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 content">
+        <div class="title">
+          <h1><a href="/">Google Fonts Mirror</a></h1>
+          <div class="row">
+            <div class="col-xs-3 col-xs-offset-9">
+              <div class="usage">
+                <a href="https://github.com/joway/fonts">Usage</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="font" v-for="font in fonts">
+          <h2
+            class="font-text"
+            :style="`font-family: ${font.family}, sans-serif`"
+          >
+            Google Fonts Mirror | 谷歌字体镜像 | {{ font.family }}
+          </h2>
+        </div>
+      </div>
     </div>
+
+    <script>
+      var fonts = [];
+      var app = new Vue({
+        el: "#app",
+        data: {
+          fonts
+        },
+        methods: {}
+      });
+
+      var r = new XMLHttpRequest();
+      r.open("GET", "/fonts.json", true);
+      r.onreadystatechange = function() {
+        if (r.readyState != 4 || r.status != 200) return;
+        var data = JSON.parse(r.responseText);
+        app.fonts = data;
+      };
+      r.send();
+    </script>
   </body>
 </html>
